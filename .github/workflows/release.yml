@@ -54,5 +54,5 @@ jobs:
           labels: ${{ steps.docker_meta.outputs.labels }}
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:latest
-            ghcr.io/${{ github.repository }}:${{ github.event.release.tag_name }}
+            ghcr.io/nurodev/lime:latest
+            ghcr.io/nurodev/lime:${{ github.event.release.tag_name }}
