@@ -4,4 +4,5 @@ import twindConfig from "./twind.config.ts";
 
 export default defineConfig({
   plugins: [twindPlugin(twindConfig)],
+  port: Number(Deno.env.get("PORT")) || 8000,
 });
