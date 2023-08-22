@@ -15,12 +15,12 @@
       ]
     },
     "exclude": [
-      "_fresh"
+      "src/_fresh"
     ]
   },
   "fmt": {
     "exclude": [
-      "_fresh"
+      "src/_fresh"
     ]
   },
   "imports": {
