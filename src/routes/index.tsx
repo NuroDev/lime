@@ -12,7 +12,7 @@ export default function Home() {
           🍋 Lime
         </h2>
 
-        <p class="sm:text-lg text-md text-gray-400">
+        <p class="sm:text-lg text-md text-gray-500">
           Get started building your next project by editing the files inside
           {" "}
           <code>src/routes/</code>
@@ -23,7 +23,7 @@ export default function Home() {
         <Counter count={count} />
       </main>
 
-      <footer class="text-sm text-gray-400">
+      <footer class="text-sm text-gray-500">
         <p>
           Built with <span class="text-red-600">❤️</span> by{" "}
           <a
