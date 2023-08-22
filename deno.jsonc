@@ -10,7 +10,15 @@
   "lint": {
     "rules": {
       "tags": [
+        "ban-untagged-todo",
+        "default-param-last",
+        "eqeqeq",
+        "explicit-function-return-type",
+        "explicit-module-boundary-types",
         "fresh",
+        "no-const-assign",
+        "no-external-import",
+        "no-sparse-arrays",
         "recommended"
       ]
     },
