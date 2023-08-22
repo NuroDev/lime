@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-  dorty:
+  lime:
     build: .
-    image: dorty
-    container_name: dorty
+    image: lime
+    container_name: lime
     ports:
       - 8000:8000
