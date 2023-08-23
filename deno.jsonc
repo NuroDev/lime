@@ -1,10 +1,10 @@
 {
     "lock": false,
     "tasks": {
-        "build": "deno run -A src/dev.ts build",
+        "build": "deno run -A --unstable src/dev.ts build",
         "check": "deno fmt --check && deno lint && deno check src/**/*.ts && deno check src/**/*.tsx",
         "preview": "deno run -A src/main.ts",
-        "start": "deno run -A --watch=src/static/,src/routes/ src/dev.ts",
+        "start": "deno run -A --unstable --watch=src/static/,src/routes/ src/dev.ts",
         "test": "deno test -A --unstable --parallel",
         "update": "deno run -A -r https://fresh.deno.dev/update ."
     },
