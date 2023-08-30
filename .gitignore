@@ -10,3 +10,6 @@ _fresh/
 
 # macOS
 .DS_Store
+
+# Deno KV (Local)
+.kv/
