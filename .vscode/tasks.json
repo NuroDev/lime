@@ -1,0 +1,47 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "deno",
+            "command": "task",
+            "args": ["build"],
+            "problemMatcher": ["$deno"],
+            "label": "Deno: Build"
+        },
+        {
+            "type": "deno",
+            "command": "task",
+            "args": ["check"],
+            "problemMatcher": ["$deno"],
+            "label": "Deno: Check"
+        },
+        {
+            "type": "deno",
+            "command": "task",
+            "args": ["preview"],
+            "problemMatcher": ["$deno"],
+            "label": "Deno: Preview"
+        },
+        {
+            "type": "deno",
+            "command": "task",
+            "args": ["start"],
+            "problemMatcher": ["$deno"],
+            "label": "Deno: Start"
+        },
+        {
+            "type": "deno",
+            "command": "task",
+            "args": ["test"],
+            "problemMatcher": ["$deno"],
+            "label": "Deno: Test"
+        },
+        {
+            "type": "deno",
+            "command": "task",
+            "args": ["update"],
+            "problemMatcher": ["$deno"],
+            "label": "Deno: Update"
+        }
+    ]
+}
