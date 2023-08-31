@@ -26,7 +26,7 @@ export default function Home() {
                 <p>
                     Built with <span class='text-red-600'>❤️</span> by{' '}
                     <a
-                        class='font-bold text-blue-500 hover:text-blue-700 rounded-md transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
+                        class='font-bold text-blue-600 hover:text-blue-700 rounded-md transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
                         href='https://twitter.com/nurodev'
                         rel='noreferrer noopener'
                         target='_blank'
