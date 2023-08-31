@@ -23,9 +23,7 @@
                 "recommended"
             ]
         },
-        "exclude": [
-            "src/_fresh"
-        ]
+        "exclude": ["src/_fresh"]
     },
     "fmt": {
         "exclude": ["src/_fresh"],
