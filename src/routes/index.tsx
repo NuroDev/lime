@@ -22,7 +22,7 @@ export default function Home() {
                 <Counter count={count} />
             </main>
 
-            <footer class='text-sm text-gray-500'>
+            <footer class='text-sm text-gray-500 space-y-2'>
                 <p>
                     Built with <span class='text-red-600'>❤️</span> by{' '}
                     <a
@@ -32,6 +32,18 @@ export default function Home() {
                         target='_blank'
                     >
                         @nurodev
+                    </a>
+                </p>
+
+                <p>
+                    View{' '}
+                    <a
+                        class='font-bold text-blue-600 hover:text-blue-700 rounded-md transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
+                        href='https://github.com/nurodev/lime'
+                        rel='noreferrer noopener'
+                        target='_blank'
+                    >
+                        source
                     </a>
                 </p>
             </footer>
