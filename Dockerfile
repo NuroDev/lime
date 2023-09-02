@@ -6,7 +6,7 @@ WORKDIR /app
 
 USER deno
 
-ADD ./deno.json /app
+ADD ./deno.jsonc /app
 
 ADD ./src/ /app/src
 
