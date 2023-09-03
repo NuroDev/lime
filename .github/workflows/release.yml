@@ -25,9 +25,6 @@ jobs:
         with:
           images: |
             ghcr.io/${{ github.repository }}
-          labels: |
-            org.opencontainers.image.title=Lime
-            org.opencontainers.image.description=A Fresh project template
           tags: |
             type=sha
             type=semver,pattern={{version}}
