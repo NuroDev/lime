@@ -1,9 +1,18 @@
 # 🍋 Lime
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
+An opinionated Deno Fresh project template that builds on the standard Fresh
+project template with a number of additional features.
 
-### Usage
+### ⭐ Features
+
+- 🌎 Out-of-the-box Deno Deploy support
+- 🗄️ Deno KV ready
+- 🐳 Docker image
+- 🚦 Automated Docker image release workflow
+- ⚗️ Basic test suite
+- 👨‍💻 VSCode launch & task configurations
+
+### 🦄 Usage
 
 Make sure to install Deno: https://deno.land/manual/getting_started/installation
 
@@ -14,3 +23,14 @@ deno task start
 ```
 
 This will watch the project directory and restart as necessary.
+
+### 🐳 Docker
+
+When a new release is created in GitHub, a new Docker image is automatically
+built and pushed to the GitHub package registry.
+
+To run the Docker image:
+
+```
+docker run -d -p 8000:8000 ghcr.io/nurodev/lime:latest
+```
