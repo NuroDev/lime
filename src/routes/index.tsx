@@ -30,7 +30,7 @@ export default defineRoute(() => (
             <p>
                 Built with <span class='text-red-600'>❤️</span> by{' '}
                 <a
-                    class='font-bold text-blue-600 hover:text-blue-700 rounded-md transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 dark:focus:ring-offset-gray-900'
+                    class='font-bold text-primary-600 hover:text-primary-700 rounded-md transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 dark:focus:ring-offset-gray-900'
                     href='https://twitter.com/nurodev'
                     rel='noreferrer noopener'
                     target='_blank'
@@ -42,7 +42,7 @@ export default defineRoute(() => (
             <p>
                 View{' '}
                 <a
-                    class='font-bold text-blue-600 hover:text-blue-700 rounded-md transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 dark:focus:ring-offset-gray-900'
+                    class='font-bold text-primary-600 hover:text-primary-700 rounded-md transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 dark:focus:ring-offset-gray-900'
                     href='https://github.com/nurodev/lime'
                     rel='noreferrer noopener'
                     target='_blank'
