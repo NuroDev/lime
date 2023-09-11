@@ -14,7 +14,7 @@ export default defineApp((_req, { Component }) => (
             />
             <title>Lime</title>
         </head>
-        <body class='antialiased bg-gray-50 text-gray-600'>
+        <body class='antialiased bg-gray-50 dark:bg-gray-900 text-gray-600 dark:text-gray-100'>
             <Component />
         </body>
     </html>

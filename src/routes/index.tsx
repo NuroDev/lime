@@ -10,13 +10,13 @@ function CounterWrapper() {
 }
 
 export default defineRoute(() => (
-    <div class='sm:px-6 lg:px-8 bg-gray-50 flex flex-col justify-center min-h-screen py-12 sm:mx-auto sm:w-full sm:max-w-xl items-start mx-8'>
+    <div class='sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-900 flex flex-col justify-center min-h-screen py-12 sm:mx-auto sm:w-full sm:max-w-xl items-start mx-8 text-gray-500 dark:text-gray-400'>
         <header class='space-y-4'>
-            <h2 class='sm:text-4xl text-2xl font-bold text-gray-900'>
+            <h2 class='sm:text-4xl text-2xl font-bold text-gray-900 dark:text-white'>
                 🍋 Lime
             </h2>
 
-            <p class='sm:text-lg text-md text-gray-500'>
+            <p class='sm:text-lg text-md'>
                 Get started building your next project by editing the files
                 inside <code>src/routes/</code>
             </p>
@@ -26,11 +26,11 @@ export default defineRoute(() => (
             <CounterWrapper />
         </main>
 
-        <footer class='text-sm text-gray-500 space-y-2'>
+        <footer class='text-sm space-y-2'>
             <p>
                 Built with <span class='text-red-600'>❤️</span> by{' '}
                 <a
-                    class='font-bold text-blue-600 hover:text-blue-700 rounded-md transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
+                    class='font-bold text-blue-600 hover:text-blue-700 rounded-md transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 dark:focus:ring-offset-gray-900'
                     href='https://twitter.com/nurodev'
                     rel='noreferrer noopener'
                     target='_blank'
@@ -42,7 +42,7 @@ export default defineRoute(() => (
             <p>
                 View{' '}
                 <a
-                    class='font-bold text-blue-600 hover:text-blue-700 rounded-md transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
+                    class='font-bold text-blue-600 hover:text-blue-700 rounded-md transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 dark:focus:ring-offset-gray-900'
                     href='https://github.com/nurodev/lime'
                     rel='noreferrer noopener'
                     target='_blank'
