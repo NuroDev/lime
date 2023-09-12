@@ -40,6 +40,7 @@
         "fresh_seo": "https://deno.land/x/fresh_seo@1.0.1/mod.ts",
         "kv_oauth": "https://deno.land/x/deno_kv_oauth@v0.6.0/mod.ts",
         "kv_oauth/": "https://deno.land/x/deno_kv_oauth@v0.6.0/",
+        "lucide-preact": "https://esm.sh/lucide-preact@0.276.0",
         "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.2.1",
         "preact": "https://esm.sh/preact@10.15.1",
         "preact/": "https://esm.sh/preact@10.15.1/",
