@@ -8,6 +8,7 @@ project template with a number of additional features.
 - 🌎 Out-of-the-box Deno Deploy support
 - 🗄️ Deno KV ready
 - 🐳 Docker image
+- 🔋 Batteries includes for tRPC, Zod & more
 - 🚦 Automated Docker image release workflow
 - ⚗️ Basic test suite
 - 👨‍💻 VSCode launch & task configurations
