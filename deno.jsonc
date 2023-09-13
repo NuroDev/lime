@@ -37,6 +37,7 @@
         "~/": "./src/",
         "$fresh/": "https://deno.land/x/fresh@1.4.3/",
         "$std/": "https://deno.land/std@0.193.0/",
+        "clsx": "npm:clsx@2.0.0",
         "fresh_seo": "https://deno.land/x/fresh_seo@1.0.1/mod.ts",
         "kv_oauth": "https://deno.land/x/deno_kv_oauth@v0.6.0/mod.ts",
         "kv_oauth/": "https://deno.land/x/deno_kv_oauth@v0.6.0/",
@@ -44,6 +45,7 @@
         "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.2.1",
         "preact": "npm:preact@10.15.1",
         "preact/": "npm:/preact@10.15.1/",
+        "tailwind-merge": "npm:tailwind-merge@1.14.0",
         "twind": "npm:twind@0.16.19",
         "twind/": "npm:/twind@0.16.19/",
         "zod": "npm:zod@3.22.2"
