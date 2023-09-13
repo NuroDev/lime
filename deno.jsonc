@@ -40,13 +40,13 @@
         "fresh_seo": "https://deno.land/x/fresh_seo@1.0.1/mod.ts",
         "kv_oauth": "https://deno.land/x/deno_kv_oauth@v0.6.0/mod.ts",
         "kv_oauth/": "https://deno.land/x/deno_kv_oauth@v0.6.0/",
-        "lucide-preact": "https://esm.sh/lucide-preact@0.276.0",
+        "lucide-preact": "npm:lucide-preact@0.276.0",
         "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.2.1",
-        "preact": "https://esm.sh/preact@10.15.1",
-        "preact/": "https://esm.sh/preact@10.15.1/",
-        "twind": "https://esm.sh/twind@0.16.19",
-        "twind/": "https://esm.sh/twind@0.16.19/",
-        "zod": "https://esm.sh/zod@3.22.2"
+        "preact": "npm:preact@10.15.1",
+        "preact/": "npm:/preact@10.15.1/",
+        "twind": "npm:twind@0.16.19",
+        "twind/": "npm:/twind@0.16.19/",
+        "zod": "npm:zod@3.22.2"
     },
     "compilerOptions": {
         "jsx": "react-jsx",
