@@ -1,9 +1,18 @@
-import * as defaultColors from 'twind/colors';
-import type { Options } from '$fresh/plugins/twind.ts';
+import { defineConfig } from '@twind/core';
+import presetTailwind from '@twind/preset-tailwind';
+import presetAutoprefix from '@twind/preset-autoprefix';
+import * as defaultColors from '@twind/preset-tailwind/colors';
 
-export default {
+import type { Options as TwindConfig } from '$fresh/plugins/twindv1/shared.ts';
+import type { Preset } from '@twind/core';
+
+// TODO(@nurodev): Fix type error in default export caused by `theme.extend`
+const baseConfig = defineConfig({
     darkMode: 'class',
-    selfURL: import.meta.url,
+    presets: [
+        presetAutoprefix() as Preset,
+        presetTailwind() as Preset,
+    ],
     theme: {
         extend: {
             colors: {
@@ -23,4 +32,9 @@ export default {
             },
         },
     },
-} satisfies Options;
+});
+
+export default {
+    ...baseConfig,
+    selfURL: import.meta.url,
+} satisfies TwindConfig;

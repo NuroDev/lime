@@ -1,5 +1,5 @@
 import { defineConfig } from '$fresh/server.ts';
-import twindPlugin from '$fresh/plugins/twind.ts';
+import twindPlugin from '$fresh/plugins/twindv1.ts';
 import { freshSEOPlugin } from 'fresh_seo';
 
 import manifest from '~/fresh.gen.ts';
