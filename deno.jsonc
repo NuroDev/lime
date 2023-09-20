@@ -58,6 +58,8 @@
     },
     "compilerOptions": {
         "jsx": "react-jsx",
-        "jsxImportSource": "preact"
+        "jsxImportSource": "preact",
+        "noUncheckedIndexedAccess": true,
+        "strict": true
     }
 }
