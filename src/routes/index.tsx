@@ -2,6 +2,7 @@ import { useSignal } from '@preact/signals';
 import { defineRoute } from '$fresh/server.ts';
 
 import { Counter } from '~/islands/Counter.tsx';
+import { Fetch } from '~/islands/Fetch.tsx';
 
 function CounterWrapper() {
     const count = useSignal(0);
@@ -24,6 +25,7 @@ export default defineRoute(() => (
 
         <main class='w-full my-4'>
             <CounterWrapper />
+            <Fetch />
         </main>
 
         <footer class='text-sm space-y-2'>
