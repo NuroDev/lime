@@ -8,7 +8,7 @@ import type { Preset } from '@twind/core';
 
 // TODO(@nurodev): Fix type error in default export caused by `theme.extend`
 const baseConfig = defineConfig({
-    darkMode: 'class',
+    darkMode: 'media',
     presets: [
         presetAutoprefix() as Preset,
         presetTailwind() as Preset,
