@@ -1,12 +1,12 @@
-import type { Signal } from '@preact/signals';
-
 import { Button } from '~/components/Button.tsx';
+
+import type { Signal } from '@preact/signals';
 
 interface CounterProps {
     count: Signal<number>;
 }
 
-export default function Counter({ count }: CounterProps) {
+export function Counter({ count }: CounterProps) {
     return (
         <div class='flex gap-8 py-6'>
             <Button onClick={() => count.value -= 1}>-1</Button>

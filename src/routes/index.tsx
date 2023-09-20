@@ -1,7 +1,7 @@
 import { useSignal } from '@preact/signals';
 import { defineRoute } from '$fresh/server.ts';
 
-import Counter from '~/islands/Counter.tsx';
+import { Counter } from '~/islands/Counter.tsx';
 
 function CounterWrapper() {
     const count = useSignal(0);
