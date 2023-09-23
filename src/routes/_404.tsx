@@ -28,7 +28,7 @@ export default function Error404(_props: UnknownPageProps) {
                     <p>
                         Go back{' '}
                         <a
-                            class='font-bold text-primary-600 hover:text-primary-700 rounded-md transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
+                            class='font-bold text-primary-600 hover:text-primary-700 rounded-md transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 dark:focus:ring-offset-gray-900'
                             href='/'
                             rel='noreferrer noopener'
                             target='_blank'
