@@ -1,6 +1,7 @@
 import { ArrowRight, LockIcon, LogOutIcon, StarIcon } from 'lucide-preact';
 
 import { cn } from '~/utils/cn.ts';
+import { Logo } from '~/components/Logo.tsx';
 
 import type { LucideIcon } from 'lucide-preact';
 import type { JSX } from 'preact';
@@ -52,21 +53,7 @@ export function Header({ isLoggedIn }: HeaderProps) {
                             class='transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 dark:focus:ring-offset-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 flex items-center p-2 rounded-lg'
                             href='/'
                         >
-                            <svg
-                                class='h-8 w-auto text-primary-600'
-                                height='1024'
-                                width='1024'
-                                viewBox='0 0 64 64'
-                                xmlns='http://www.w3.org/2000/svg'
-                            >
-                                <circle
-                                    cx='32'
-                                    cy='32'
-                                    fill='currentColor'
-                                    r='24'
-                                >
-                                </circle>
-                            </svg>
+                            <Logo class='h-8 w-auto' />
                         </a>
 
                         <div class='md:flex md:gap-x-2 hidden'>
@@ -99,9 +86,9 @@ export function Header({ isLoggedIn }: HeaderProps) {
                             )
                             : (
                                 <>
-                                    <div className='md:block hidden'>
+                                    <div class='md:block hidden'>
                                         <LinkButton
-                                            href='#'
+                                            href='/login'
                                             icon={LockIcon}
                                         >
                                             Log in
