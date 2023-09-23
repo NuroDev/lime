@@ -9,26 +9,26 @@ export default function Error404(_props: UnknownPageProps) {
                 <title>404 - Page not found</title>
             </Head>
 
-            <div class='sm:px-6 lg:px-8 bg-gray-50 flex flex-col justify-center min-h-screen py-12 sm:mx-auto sm:w-full sm:max-w-xl items-start mx-8 space-y-2'>
+            <div class='sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-900 flex flex-col justify-center min-h-screen py-12 sm:mx-auto sm:w-full sm:max-w-xl items-start mx-8 space-y-2'>
                 <header class='space-y-4'>
-                    <h1 class='sm:text-6xl text-4xl font-bold text-gray-900'>
+                    <h1 class='sm:text-6xl text-4xl font-bold text-gray-900 dark:text-white'>
                         404
                     </h1>
 
-                    <h2 class='sm:text-4xl text-2xl font-bold text-gray-900'>
+                    <h2 class='sm:text-4xl text-2xl font-bold text-gray-900 dark:text-white'>
                         Page not found
                     </h2>
 
-                    <p class='sm:text-lg text-md text-gray-500'>
+                    <p class='sm:text-lg text-md text-gray-500 dark:text-gray-200'>
                         The page you were looking for doesn't exist.
                     </p>
                 </header>
 
-                <footer class='text-sm text-gray-500'>
+                <footer class='text-sm text-gray-500 dark:text-gray-200'>
                     <p>
                         Go back{' '}
                         <a
-                            class='font-bold text-blue-600 hover:text-blue-700 rounded-md transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
+                            class='font-bold text-primary-600 hover:text-primary-700 rounded-md transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
                             href='/'
                             rel='noreferrer noopener'
                             target='_blank'
