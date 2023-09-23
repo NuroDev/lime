@@ -4,7 +4,7 @@ import type { JSX } from 'preact';
 import type { LucideIcon } from 'lucide-preact';
 
 interface LoginButtonProps
-    extends Omit<JSX.HTMLAttributes<HTMLButtonElement>, 'icon'> {
+    extends Omit<JSX.HTMLAttributes<HTMLAnchorElement>, 'icon'> {
     icon?: LucideIcon;
 }
 
@@ -16,7 +16,7 @@ export function LoginButton(
     }: LoginButtonProps,
 ) {
     return (
-        <button
+        <a
             class={cn(
                 'group relative flex items-center justify-center w-full p-3 h-13',
                 'hover:bg-gray-100/50 dark:hover:bg-gray-800',
@@ -26,8 +26,6 @@ export function LoginButton(
                 'transition ease-in-out duration-300',
                 'focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 dark:focus:ring-offset-gray-900',
             )}
-            // onClick={() => signIn(provider.id, { callbackUrl: '/teams' })}
-            type='button'
             {...rest}
         >
             {Icon
@@ -43,6 +41,6 @@ export function LoginButton(
                 : null}
 
             <span>{children}</span>
-        </button>
+        </a>
     );
 }

@@ -39,7 +39,7 @@ export default function RegisterPage() {
                     </div>
 
                     <div class='space-y-4'>
-                        <LoginButton icon={GithubIcon}>
+                        <LoginButton href='#' icon={GithubIcon}>
                             Sign up with{' '}
                             <span className='capitalize'>GitHub</span>
                         </LoginButton>
