@@ -4,14 +4,14 @@
 
 import * as $0 from './routes/(auth)/login.tsx';
 import * as $1 from './routes/(auth)/register.tsx';
-import * as $2 from './routes/_404.tsx';
-import * as $3 from './routes/_app.tsx';
-import * as $4 from './routes/_layout.tsx';
-import * as $5 from './routes/_middleware.ts';
-import * as $6 from './routes/api/trpc/[...path].ts';
-import * as $7 from './routes/index.tsx';
-import * as $8 from './routes/privacy.ts';
-import * as $9 from './routes/terms.ts';
+import * as $2 from './routes/(marketing)/privacy.ts';
+import * as $3 from './routes/(marketing)/terms.ts';
+import * as $4 from './routes/_404.tsx';
+import * as $5 from './routes/_app.tsx';
+import * as $6 from './routes/_layout.tsx';
+import * as $7 from './routes/_middleware.ts';
+import * as $8 from './routes/api/trpc/[...path].ts';
+import * as $9 from './routes/index.tsx';
 import * as $$0 from './islands/Counter.tsx';
 import * as $$1 from './islands/Fetch.tsx';
 
@@ -19,14 +19,14 @@ const manifest = {
     routes: {
         './routes/(auth)/login.tsx': $0,
         './routes/(auth)/register.tsx': $1,
-        './routes/_404.tsx': $2,
-        './routes/_app.tsx': $3,
-        './routes/_layout.tsx': $4,
-        './routes/_middleware.ts': $5,
-        './routes/api/trpc/[...path].ts': $6,
-        './routes/index.tsx': $7,
-        './routes/privacy.ts': $8,
-        './routes/terms.ts': $9,
+        './routes/(marketing)/privacy.ts': $2,
+        './routes/(marketing)/terms.ts': $3,
+        './routes/_404.tsx': $4,
+        './routes/_app.tsx': $5,
+        './routes/_layout.tsx': $6,
+        './routes/_middleware.ts': $7,
+        './routes/api/trpc/[...path].ts': $8,
+        './routes/index.tsx': $9,
     },
     islands: {
         './islands/Counter.tsx': $$0,
