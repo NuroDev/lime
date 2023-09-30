@@ -11,18 +11,7 @@ export interface MapTypedKv<K extends string, V extends unknown> {
     set(id: K, value: Partial<V>): Promise<void>;
 }
 
-export interface User {
-    name: string;
-    email: string;
-}
-
-export interface Post {
-    title: string;
-    slug: string;
-    content: string;
-}
-
-export type Database = {
-    posts: [`pst_${number}`, Post];
-    users: [`usr_${string}`, User];
-};
+/**
+ * @see https://gist.github.com/NuroDev/15e1f8f9a5f8050c8717e872778ea79a#file-example-ts-L1-L15
+ */
+export type Database = {};
