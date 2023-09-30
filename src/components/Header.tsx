@@ -26,6 +26,7 @@ function LinkButton({ children, href, icon: Icon }: LinkButtonProps) {
                 'flex items-center space-x-2 py-2 px-4',
                 'hover:bg-gray-100 dark:hover:bg-gray-800',
                 'text-sm font-medium hover:text-gray-900 dark:text-gray-200 dark:hover:text-white',
+                'border border-transparent dark:border-gray-800 hover:dark:border-gray-700',
                 'rounded-lg',
                 'transition ease-in-out duration-300',
                 'focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 dark:focus:ring-offset-gray-900',
