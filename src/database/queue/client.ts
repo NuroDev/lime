@@ -10,10 +10,6 @@ const { enqueue, listener } = createdTypedQueue(
     }),
     ({ body, type }) => {
         switch (type) {
-            case 'email': {
-                console.log('Receieved', body);
-                return;
-            }
             default:
                 throw new Error('Unknown queue type', {
                     cause: { body, type },
