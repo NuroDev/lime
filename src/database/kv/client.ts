@@ -19,3 +19,6 @@ export const kv = await Deno.openKv(
 );
 
 export const tkv = createdTypedKv<Database>(kv);
+
+// Gracefully shutdown the KV connection.
+addEventListener('beforeunload', kv.close);
