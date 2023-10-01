@@ -12,7 +12,7 @@ export default defineApp((_req, { Component }) => (
                 name='description'
                 content='An opinionated Deno Fresh project template'
             />
-            <title>🍋 Lime</title>
+            <title>Lime</title>
         </head>
         <body class='antialiased bg-gray-50 dark:bg-gray-900 text-gray-600 dark:text-gray-100'>
             <Component />
