@@ -26,7 +26,7 @@ export const handler: Handlers = {
         }
 
         const componentImport = await import(
-            `~/components/og/${parsedParams.data.template}.tsx`
+            `../../components/og/${parsedParams.data.template}.tsx`
         );
         if (!componentImport.default) {
             return Response.json({
