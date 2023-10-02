@@ -14,4 +14,5 @@ export interface MapTypedKv<K extends string, V extends unknown> {
 /**
  * @see https://gist.github.com/NuroDev/15e1f8f9a5f8050c8717e872778ea79a#file-example-ts-L1-L15
  */
+// deno-lint-ignore ban-types
 export type Database = {};
