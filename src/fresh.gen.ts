@@ -10,8 +10,9 @@ import * as $4 from './routes/_404.tsx';
 import * as $5 from './routes/_app.tsx';
 import * as $6 from './routes/_layout.tsx';
 import * as $7 from './routes/_middleware.ts';
-import * as $8 from './routes/api/trpc/[...path].ts';
-import * as $9 from './routes/index.tsx';
+import * as $8 from './routes/api/og.tsx';
+import * as $9 from './routes/api/trpc/[...path].ts';
+import * as $10 from './routes/index.tsx';
 import * as $$0 from './islands/Counter.tsx';
 import * as $$1 from './islands/Fetch.tsx';
 
@@ -25,8 +26,9 @@ const manifest = {
         './routes/_app.tsx': $5,
         './routes/_layout.tsx': $6,
         './routes/_middleware.ts': $7,
-        './routes/api/trpc/[...path].ts': $8,
-        './routes/index.tsx': $9,
+        './routes/api/og.tsx': $8,
+        './routes/api/trpc/[...path].ts': $9,
+        './routes/index.tsx': $10,
     },
     islands: {
         './islands/Counter.tsx': $$0,
