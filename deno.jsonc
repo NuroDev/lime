@@ -62,5 +62,6 @@
         "jsxImportSource": "preact",
         "noUncheckedIndexedAccess": true,
         "strict": true
-    }
+    },
+    "exclude": ["src/**/_fresh/*"]
 }
