@@ -42,6 +42,8 @@
         "@twind/preset-tailwind": "https://esm.sh/@twind/preset-tailwind@1.1.4",
         "@twind/preset-tailwind/": "https://esm.sh/@twind/preset-tailwind@1.1.4/",
         "~/": "./src/",
+        "$fresh-testing-library": "https://deno.land/x/fresh_testing_library@0.11.0/mod.ts",
+        "$fresh-testing-library/": "https://deno.land/x/fresh_testing_library@0.11.0/",
         "$fresh/": "https://deno.land/x/fresh@1.5.0/",
         "$std/": "https://deno.land/std@0.203.0/",
         "clsx": "https://esm.sh/clsx@2.0.0",
