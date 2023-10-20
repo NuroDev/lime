@@ -5,7 +5,8 @@ import type { Handlers } from '$fresh/server.ts';
 
 const ParamsSchema = z.object({
     template: z.union([
-        z.literal('HelloWorld'),
+        z.literal('Foo'),
+        z.literal('Bar'),
     ]),
     width: z.number().min(1).default(1200),
     height: z.number().min(1).default(630),
