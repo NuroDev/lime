@@ -1,7 +1,7 @@
 import { GithubIcon } from 'lucide-preact';
 import { Head } from '$fresh/runtime.ts';
 
-import { LoginButton } from '~/components/auth/Button.tsx';
+import { LoginButton } from '~/islands/LoginButton.tsx';
 import { Logo } from '~/components/Logo.tsx';
 
 export default function RegisterPage() {

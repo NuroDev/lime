@@ -1,7 +1,7 @@
 import { GithubIcon } from 'lucide-preact';
 import { Head } from '$fresh/runtime.ts';
 
-import { LoginButton } from '~/components/auth/Button.tsx';
+import { LoginButton } from '~/islands/LoginButton.tsx';
 import { Logo } from '~/components/Logo.tsx';
 
 export default function LoginPage() {
@@ -39,7 +39,7 @@ export default function LoginPage() {
                     </div>
 
                     <div class='space-y-4'>
-                        <LoginButton href='#' icon={GithubIcon}>
+                        <LoginButton icon={GithubIcon}>
                             Sign in with{' '}
                             <span className='capitalize'>GitHub</span>
                         </LoginButton>
