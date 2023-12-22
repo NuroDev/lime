@@ -13,3 +13,6 @@ _fresh/
 
 # Deno KV (Local)
 .kv/
+
+# Node.js / npm
+node_modules/

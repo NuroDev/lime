@@ -1,9 +1,8 @@
 import { defineConfig } from '$fresh/server.ts';
-import twindPlugin from '$fresh/plugins/twindv1.ts';
 import { freshSEOPlugin } from 'fresh_seo';
+import tailwind from '$fresh/plugins/tailwind.ts';
 
 import manifest from '~/fresh.gen.ts';
-import twindConfig from './twind.config.ts';
 
 export default defineConfig({
     plugins: [
@@ -11,7 +10,7 @@ export default defineConfig({
             exclude: [],
             include: [],
         }),
-        twindPlugin(twindConfig),
+        tailwind(),
     ],
     port: Number(Deno.env.get('PORT')) || 8000,
 });

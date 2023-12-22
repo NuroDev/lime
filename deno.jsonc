@@ -32,16 +32,13 @@
         "semiColons": true,
         "singleQuote": true
     },
+    "nodeModulesDir": true,
     "imports": {
         "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.0",
         "@preact/signals": "https://esm.sh/*@preact/signals@1.2.1",
         "@trpc/client": "https://esm.sh/@trpc/client@10.38.2",
         "@trpc/server": "https://esm.sh/@trpc/server@10.38.2",
         "@trpc/server/": "https://esm.sh/@trpc/server@10.38.2/",
-        "@twind/core": "https://esm.sh/@twind/core@1.1.3",
-        "@twind/preset-autoprefix": "https://esm.sh/@twind/preset-autoprefix@1.0.7",
-        "@twind/preset-tailwind": "https://esm.sh/@twind/preset-tailwind@1.1.4",
-        "@twind/preset-tailwind/": "https://esm.sh/@twind/preset-tailwind@1.1.4/",
         "~/": "./src/",
         "$fresh-testing-library": "https://deno.land/x/fresh_testing_library@0.11.0/mod.ts",
         "$fresh-testing-library/": "https://deno.land/x/fresh_testing_library@0.11.0/",
@@ -57,6 +54,9 @@
         "preact": "https://esm.sh/preact@10.19.2",
         "preact/": "https://esm.sh/preact@10.19.2/",
         "superjson": "https://esm.sh/superjson@1.13.1",
+        "tailwindcss": "npm:tailwindcss@3.4.0",
+        "tailwindcss/": "npm:/tailwindcss@3.4.0/",
+        "tailwindcss/plugin": "npm:/tailwindcss@3.4.0/plugin.js",
         "tailwind-merge": "https://esm.sh/tailwind-merge@1.14.0",
         "zod": "https://esm.sh/zod@3.22.2"
     },
