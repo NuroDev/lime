@@ -34,7 +34,8 @@ const baseConfig = defineConfig({
     },
 });
 
-export default {
-    ...baseConfig,
-    selfURL: import.meta.url,
-} satisfies TwindConfig;
+export default Object.assign(
+    {},
+    baseConfig,
+    { selfURL: import.meta.url } as TwindConfig,
+);
