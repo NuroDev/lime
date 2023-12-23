@@ -58,7 +58,7 @@
         "tailwindcss/": "npm:/tailwindcss@3.4.0/",
         "tailwindcss/plugin": "npm:/tailwindcss@3.4.0/plugin.js",
         "tailwind-merge": "https://esm.sh/tailwind-merge@1.14.0",
-        "zod": "https://esm.sh/zod@3.22.2"
+        "zod": "https://deno.land/x/zod@v3.22.2/mod.ts"
     },
     "compilerOptions": {
         "jsx": "react-jsx",
