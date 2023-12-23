@@ -4,6 +4,8 @@
 
 import * as $_auth_login from './routes/(auth)/login.tsx';
 import * as $_auth_register from './routes/(auth)/register.tsx';
+import * as $_marketing_layout from './routes/(marketing)/_layout.tsx';
+import * as $_marketing_index from './routes/(marketing)/index.tsx';
 import * as $_marketing_privacy from './routes/(marketing)/privacy.ts';
 import * as $_marketing_terms from './routes/(marketing)/terms.ts';
 import * as $_404 from './routes/_404.tsx';
@@ -12,7 +14,6 @@ import * as $_layout from './routes/_layout.tsx';
 import * as $_middleware from './routes/_middleware.ts';
 import * as $api_og from './routes/api/og.tsx';
 import * as $api_trpc_path_ from './routes/api/trpc/[...path].ts';
-import * as $index from './routes/index.tsx';
 import * as $Counter from './islands/Counter.tsx';
 import * as $Fetch from './islands/Fetch.tsx';
 import * as $LoginButton from './islands/LoginButton.tsx';
@@ -22,6 +23,8 @@ const manifest = {
     routes: {
         './routes/(auth)/login.tsx': $_auth_login,
         './routes/(auth)/register.tsx': $_auth_register,
+        './routes/(marketing)/_layout.tsx': $_marketing_layout,
+        './routes/(marketing)/index.tsx': $_marketing_index,
         './routes/(marketing)/privacy.ts': $_marketing_privacy,
         './routes/(marketing)/terms.ts': $_marketing_terms,
         './routes/_404.tsx': $_404,
@@ -30,7 +33,6 @@ const manifest = {
         './routes/_middleware.ts': $_middleware,
         './routes/api/og.tsx': $api_og,
         './routes/api/trpc/[...path].ts': $api_trpc_path_,
-        './routes/index.tsx': $index,
     },
     islands: {
         './islands/Counter.tsx': $Counter,
