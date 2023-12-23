@@ -48,7 +48,7 @@
         "deno_kv_oauth": "https://deno.land/x/deno_kv_oauth@v0.9.1/mod.ts",
         "deno_kv_oauth/": "https://deno.land/x/deno_kv_oauth@v0.9.1/",
         "fresh_seo": "https://deno.land/x/fresh_seo@1.0.1/mod.ts",
-        "lucide-preact": "https://esm.sh/lucide-preact@0.300.0",
+        "lucide-preact": "npm:lucide-preact@0.300.0",
         "og_edge": "https://deno.land/x/og_edge@0.0.6/mod.ts",
         "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.2.2",
         "preact": "https://esm.sh/preact@10.19.2",
