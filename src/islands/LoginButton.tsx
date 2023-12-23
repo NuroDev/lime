@@ -53,9 +53,9 @@ export function LoginButton(
             {loading.value === true ? <Loader2Icon class='animate-spin' /> : (
                 <>
                     {
-                        /* <span class='absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none'>
-                        <Icon aria-hidden={true} class='w-5 h-5' />
-                    </span> */
+                        <span class='absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none'>
+                            <Icon aria-hidden={true} class='w-5 h-5' />
+                        </span>
                     }
                     <span>{children}</span>
                 </>
