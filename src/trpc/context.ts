@@ -1,19 +1,23 @@
 import superjson from 'superjson';
 import { initTRPC } from '@trpc/server';
 
+import { tkv } from '~/database/kv/client.ts';
+
 import type { FetchCreateContextFnOptions } from '@trpc/server/adapters/fetch';
-import type { HandlerContext } from '$fresh/server.ts';
+import type { FreshContext } from '$fresh/server.ts';
 
 interface Context {
-    freshContext: HandlerContext;
+    freshContext: FreshContext;
+    kv: typeof tkv;
     req: Request;
 }
 
 export function createContext(
-    freshContext: HandlerContext,
+    freshContext: FreshContext,
 ): (opts: FetchCreateContextFnOptions) => Context {
     return ({ req }) => ({
         freshContext,
+        kv: tkv,
         req,
     });
 }
