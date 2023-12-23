@@ -26,7 +26,7 @@ export function Fetch() {
 
     if (!message.value) {
         return (
-            <div class='w-full max-w-xs h-6 bg-gray-500 animate-pulse rounded-md' />
+            <div class='w-full max-w-xs h-6 bg-gray-100 dark:bg-gray-800 animate-pulse rounded-md' />
         );
     }
 
