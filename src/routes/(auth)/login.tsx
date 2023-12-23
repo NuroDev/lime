@@ -39,7 +39,13 @@ export default function LoginPage() {
                     </div>
 
                     <div class='space-y-4'>
-                        <LoginButton icon={GithubIcon}>
+                        <LoginButton>
+                            <span class='absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none'>
+                                <GithubIcon
+                                    aria-hidden={true}
+                                    class='w-5 h-5'
+                                />
+                            </span>
                             Sign in with{' '}
                             <span className='capitalize'>GitHub</span>
                         </LoginButton>

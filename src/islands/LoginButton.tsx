@@ -4,18 +4,13 @@ import { useSignal } from '@preact/signals';
 import { cn } from '~/utils/cn.ts';
 
 import type { JSX } from 'preact';
-import type { LucideIcon } from 'lucide-preact';
 
-interface LoginButtonProps
-    extends Omit<JSX.HTMLAttributes<HTMLButtonElement>, 'icon'> {
-    icon: LucideIcon;
-}
+type LoginButtonProps = Omit<JSX.HTMLAttributes<HTMLButtonElement>, 'icon'>;
 
 export function LoginButton(
     {
         class: className,
         children,
-        icon: Icon,
         ...rest
     }: LoginButtonProps,
 ) {
@@ -50,16 +45,9 @@ export function LoginButton(
             onClick={handleClick}
             {...rest}
         >
-            {loading.value === true ? <Loader2Icon class='animate-spin' /> : (
-                <>
-                    {
-                        <span class='absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none'>
-                            <Icon aria-hidden={true} class='w-5 h-5' />
-                        </span>
-                    }
-                    <span>{children}</span>
-                </>
-            )}
+            {loading.value === true
+                ? <Loader2Icon class='animate-spin' />
+                : children}
         </button>
     );
 }
