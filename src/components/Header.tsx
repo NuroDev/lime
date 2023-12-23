@@ -28,8 +28,7 @@ function LinkButton({ children, href, icon: Icon }: LinkButtonProps) {
                 'text-sm font-medium hover:text-gray-900 dark:text-gray-200 dark:hover:text-white',
                 'border border-transparent dark:border-gray-800 hover:dark:border-gray-700',
                 'rounded-lg',
-                'transition ease-in-out duration-300',
-                'focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 dark:focus:ring-offset-gray-900',
+                'default-transition default-focus',
             )}
             href={href}
         >
@@ -51,7 +50,7 @@ export function Header({ isLoggedIn }: HeaderProps) {
                     <div class='md:gap-x-6 flex items-center'>
                         <a
                             aria-label='Home'
-                            class='transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 dark:focus:ring-offset-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 flex items-center p-2 rounded-lg'
+                            class='default-transition default-focus hover:bg-gray-100 dark:hover:bg-gray-800 flex items-center p-2 rounded-lg'
                             href='/'
                         >
                             <Logo class='h-8 w-auto' />
@@ -77,11 +76,11 @@ export function Header({ isLoggedIn }: HeaderProps) {
                                     </div>
 
                                     <a
-                                        class='transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 dark:focus:ring-offset-gray-900 flex items-center space-x-2 py-2 px-4 text-sm font-medium rounded-full bg-primary-600 hover:bg-primary-700 group px-6 font-bold text-white'
+                                        class='default-transition default-focus flex items-center space-x-2 py-2 px-6 text-sm font-bold rounded-full bg-primary-600 hover:bg-primary-700 group text-white'
                                         href='#'
                                     >
                                         <span>Open App</span>
-                                        <ArrowRight class='group-hover:translate-x-1 transition ease-in-out duration-300 transform w-3.5 h-3.5 mt-0.5' />
+                                        <ArrowRight class='group-hover:translate-x-1 default-transition transform w-3.5 h-3.5 mt-0.5' />
                                     </a>
                                 </>
                             )
@@ -97,11 +96,11 @@ export function Header({ isLoggedIn }: HeaderProps) {
                                     </div>
 
                                     <a
-                                        class='transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 dark:focus:ring-offset-gray-900 flex items-center space-x-2 py-2 px-4 text-sm font-medium rounded-full bg-primary-600 hover:bg-primary-700 group px-6 font-bold text-white'
-                                        href='#'
+                                        class='default-transition default-focus flex items-center space-x-2 py-2 px-6 text-sm font-bold rounded-full bg-primary-600 hover:bg-primary-700 group text-white'
+                                        href='/register'
                                     >
                                         <span>Get Started</span>
-                                        <ArrowRight class='group-hover:translate-x-1 transition ease-in-out duration-300 transform w-3.5 h-3.5 mt-0.5' />
+                                        <ArrowRight class='group-hover:translate-x-1 default-transition transform w-3.5 h-3.5 mt-0.5' />
                                     </a>
                                 </>
                             )}
