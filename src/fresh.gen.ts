@@ -12,7 +12,6 @@ import * as $_layout from './routes/_layout.tsx';
 import * as $_middleware from './routes/_middleware.ts';
 import * as $api_og from './routes/api/og.tsx';
 import * as $api_trpc_path_ from './routes/api/trpc/[...path].ts';
-import * as $api_v1_path_ from './routes/api/v1/[...path].ts';
 import * as $index from './routes/index.tsx';
 import * as $Counter from './islands/Counter.tsx';
 import * as $Fetch from './islands/Fetch.tsx';
@@ -31,7 +30,6 @@ const manifest = {
         './routes/_middleware.ts': $_middleware,
         './routes/api/og.tsx': $api_og,
         './routes/api/trpc/[...path].ts': $api_trpc_path_,
-        './routes/api/v1/[...path].ts': $api_v1_path_,
         './routes/index.tsx': $index,
     },
     islands: {
