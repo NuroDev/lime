@@ -7,9 +7,10 @@ const ParamsSchema = z.object({
     template: z.union([
         z.literal('Foo'),
         z.literal('Bar'),
-    ]),
-    width: z.number().min(1).default(1200),
-    height: z.number().min(1).default(630),
+        z.literal('HelloWorld'),
+    ]).optional().default('HelloWorld'),
+    width: z.number().min(1).optional().default(1200),
+    height: z.number().min(1).optional().default(630),
 });
 
 export const handler: Handlers = {
