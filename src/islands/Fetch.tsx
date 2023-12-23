@@ -8,6 +8,8 @@ export function Fetch() {
 
     const fetchHello = useCallback(async () => {
         try {
+            await new Promise((resolve) => setTimeout(resolve, 1000));
+
             const response = await client.hello.query({
                 name: 'from tRPC!',
             });
@@ -21,6 +23,12 @@ export function Fetch() {
     useEffect(() => {
         fetchHello();
     }, []);
+
+    if (!message.value) {
+        return (
+            <div class='w-full max-w-xs h-6 bg-gray-500 animate-pulse rounded-md' />
+        );
+    }
 
     return <>{message}</>;
 }
