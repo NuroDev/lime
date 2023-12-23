@@ -1,8 +1,8 @@
 import { Head } from '$fresh/runtime.ts';
 
-import type { UnknownPageProps } from '$fresh/server.ts';
+import type { PageProps } from '$fresh/server.ts';
 
-export default function Error404(_props: UnknownPageProps) {
+export default function Error404(_props: PageProps) {
     return (
         <>
             <Head>
@@ -10,7 +10,7 @@ export default function Error404(_props: UnknownPageProps) {
             </Head>
 
             <div class='sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-900 flex flex-col justify-center min-h-screen py-12 sm:mx-auto sm:w-full sm:max-w-xl items-start mx-8 space-y-2'>
-                <header class='space-y-4'>
+                <main class='space-y-4'>
                     <h1 class='sm:text-6xl text-4xl font-bold text-gray-900 dark:text-white'>
                         404
                     </h1>
@@ -22,7 +22,7 @@ export default function Error404(_props: UnknownPageProps) {
                     <p class='sm:text-lg text-md text-gray-500 dark:text-gray-200'>
                         The page you were looking for doesn't exist.
                     </p>
-                </header>
+                </main>
 
                 <footer class='text-sm text-gray-500 dark:text-gray-200'>
                     <p>
