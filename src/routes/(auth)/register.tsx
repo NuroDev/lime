@@ -17,7 +17,7 @@ export default function RegisterPage() {
                         <div class='flex justify-center items-center'>
                             <a
                                 href='/'
-                                class='flex justify-center hover:bg-gray-100 dark:hover:bg-gray-800 p-1 rounded-lg transition ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 dark:focus:ring-offset-gray-900'
+                                class='flex justify-center hover:bg-gray-100 dark:hover:bg-gray-800 p-1 rounded-lg default-transition default-focus'
                             >
                                 <Logo class='w-auto h-16 mx-auto' />
                             </a>
@@ -30,7 +30,7 @@ export default function RegisterPage() {
                         <p class='mt-2 text-sm text-center text-gray-400'>
                             Already have an account?{' '}
                             <a
-                                class='text-primary-600 hover:text-primary-700 default-transition default-focus font-bold rounded-lg'
+                                class='text-primary-600 hover:text-primary-700 default-transition default-focus font-bold rounded-md'
                                 href='/login'
                             >
                                 Login to your account
@@ -48,14 +48,14 @@ export default function RegisterPage() {
                     <p class='mt-2 text-sm text-center text-gray-400'>
                         By signing up, you agree to our <br />{' '}
                         <a
-                            class='text-primary-600 hover:text-primary-700 default-transition default-focus font-bold rounded-lg'
+                            class='text-primary-600 hover:text-primary-700 default-transition default-focus font-bold rounded-md'
                             href='/terms'
                         >
                             Terms of Service
                         </a>{' '}
                         &{' '}
                         <a
-                            class='text-primary-600 hover:text-primary-700 default-transition default-focus font-bold rounded-lg'
+                            class='text-primary-600 hover:text-primary-700 default-transition default-focus font-bold rounded-md'
                             href='/privacy'
                         >
                             Privacy Policy
