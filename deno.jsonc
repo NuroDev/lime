@@ -10,9 +10,7 @@
     },
     "unstable": ["kv", "fmt-component"],
     "lint": {
-        "rules": {
-            "tags": ["fresh", "recommended"]
-        },
+        "rules": { "tags": ["fresh", "recommended"] },
         "exclude": ["src/_fresh"]
     },
     "fmt": {
@@ -23,15 +21,15 @@
     },
     "nodeModulesDir": "auto",
     "imports": {
-        "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.0",
-        "@preact/signals": "https://esm.sh/*@preact/signals@1.2.1",
+        "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.1",
+        "@preact/signals": "https://esm.sh/*@preact/signals@1.2.2",
         "@trpc/client": "https://esm.sh/@trpc/client@10.38.2",
         "@trpc/server": "https://esm.sh/@trpc/server@10.38.2",
         "@trpc/server/": "https://esm.sh/@trpc/server@10.38.2/",
         "~/": "./src/",
         "$fresh-testing-library": "https://deno.land/x/fresh_testing_library@0.11.0/mod.ts",
         "$fresh-testing-library/": "https://deno.land/x/fresh_testing_library@0.11.0/",
-        "$fresh/": "https://deno.land/x/fresh@1.6.1/",
+        "$fresh/": "https://deno.land/x/fresh@1.7.3/",
         "$std/": "https://deno.land/std@0.203.0/",
         "clsx": "https://esm.sh/clsx@2.0.0",
         "deno_kv_oauth": "https://deno.land/x/deno_kv_oauth@v0.9.1/mod.ts",
@@ -40,8 +38,8 @@
         "lucide-preact": "https://esm.sh/lucide-preact@0.300.0",
         "og_edge": "https://deno.land/x/og_edge@0.0.6/mod.ts",
         "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.2.2",
-        "preact": "https://esm.sh/preact@10.19.2",
-        "preact/": "https://esm.sh/preact@10.19.2/",
+        "preact": "https://esm.sh/preact@10.22.0",
+        "preact/": "https://esm.sh/preact@10.22.0/",
         "superjson": "https://esm.sh/superjson@1.13.1",
         "tailwindcss": "npm:tailwindcss@3.4.0",
         "tailwindcss/": "npm:/tailwindcss@3.4.0/",
@@ -55,5 +53,5 @@
         "noUncheckedIndexedAccess": true,
         "strict": true
     },
-    "exclude": ["src/**/_fresh/*"]
+    "exclude": ["src/**/_fresh/*", "**/_fresh/*"]
 }

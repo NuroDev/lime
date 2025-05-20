@@ -17,7 +17,7 @@ import * as $api_trpc_path_ from './routes/api/trpc/[...path].ts';
 import * as $Counter from './islands/Counter.tsx';
 import * as $Fetch from './islands/Fetch.tsx';
 import * as $LoginButton from './islands/LoginButton.tsx';
-import { type Manifest } from '$fresh/server.ts';
+import type { Manifest } from '$fresh/server.ts';
 
 const manifest = {
     routes: {
