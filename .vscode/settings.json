@@ -1,22 +1,31 @@
 {
+    "[javascript]": { "editor.defaultFormatter": "denoland.vscode-deno" },
+    "[javascriptreact]": { "editor.defaultFormatter": "denoland.vscode-deno" },
+    "[json]": { "editor.defaultFormatter": "denoland.vscode-deno" },
+    "[typescript]": { "editor.defaultFormatter": "denoland.vscode-deno" },
+    "[typescriptreact]": { "editor.defaultFormatter": "denoland.vscode-deno" },
+
     "deno.cacheOnSave": true,
     "deno.enable": true,
     "deno.lint": true,
-    "deno.unstable": true,
+
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "denoland.vscode-deno",
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "denoland.vscode-deno"
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
     },
-    "[typescript]": {
-        "editor.defaultFormatter": "denoland.vscode-deno"
-    },
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "denoland.vscode-deno"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "denoland.vscode-deno"
-    },
+
+    "biome.enabled": false,
+
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
     "yaml.schemas": {
-        "https://json.schemastore.org/github-workflow.json": ".github/workflows/release.yml"
+        "https://json.schemastore.org/github-workflow.json": ".github/workflows/*.yml"
     }
 }
