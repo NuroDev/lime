@@ -17,6 +17,8 @@
 
     "biome.enabled": false,
 
+    "css.customData": [".vscode/tailwind.json"],
+
     "javascript.preferences.importModuleSpecifier": "non-relative",
     "javascript.preferences.quoteStyle": "single",
     "javascript.updateImportsOnFileMove.enabled": "always",
