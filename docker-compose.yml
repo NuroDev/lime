@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-  lime:
-    build: .
-    image: lime
-    container_name: lime
-    ports:
-      - 8000:8000
+    lime:
+        build: .
+        image: lime
+        container_name: lime
+        ports:
+            - 8000:8000

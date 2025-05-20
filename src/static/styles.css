@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 .default-focus {
-	@apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 dark:focus:ring-offset-gray-900
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2
+        focus:ring-primary-500 dark:focus:ring-offset-gray-900;
 }
 
 .default-transition {
-	@apply transition ease-in-out duration-300;
+    @apply transition ease-in-out duration-300;
 }

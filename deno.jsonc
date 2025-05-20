@@ -8,21 +8,10 @@
         "test": "deno test -A --parallel",
         "update": "deno run -A -r https://fresh.deno.dev/update ."
     },
-    "unstable": ["kv"],
+    "unstable": ["kv", "fmt-component"],
     "lint": {
         "rules": {
-            "tags": [
-                "ban-untagged-todo",
-                "default-param-last",
-                "eqeqeq",
-                "explicit-function-return-type",
-                "explicit-module-boundary-types",
-                "fresh",
-                "no-const-assign",
-                "no-external-import",
-                "no-sparse-arrays",
-                "recommended"
-            ]
+            "tags": ["fresh", "recommended"]
         },
         "exclude": ["src/_fresh"]
     },
